@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'cuid'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = 'Collision-resistant ids optimized for horizontal scaling and binary search lookup performance. Based on ericelliott work for Javascript'
 
 # This description is used to generate tags and improve search results.
@@ -31,10 +31,9 @@ Pod::Spec.new do |s|
   s.author           = { 'raphaelmansuy' => 'raphael.mansuy@gmail.com' }
   s.source           = { :git => 'https://github.com/InVisionApp/cuid-swift.git', :tag => s.version.to_s }
 
-  s.osx.deployment_target = '10.10'
-  s.swift_version = '4.2'
+  s.osx.deployment_target = '10.13'
+  s.swift_version = '5.3'
   
-
   s.source_files = 'cuid/**/*'
   
   # s.resource_bundles = {
